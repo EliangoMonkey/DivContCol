@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    background-color: rgb(58, 13, 78);
+
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1rem;
+    line-height: 3.125rem;
+    padding: 1.875rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+h2{
+    break-before: column;
+    font-size: 2rem;
+    font-weight: bold;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}
+#contenedor{
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+    font-size: 25px;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(171, 213, 86);
+    text-align: center;
+}
+div{
+    margin: 1rem;
+    background-color: rgb(224, 231, 127);
+    border-radius: 2rem;
+}
+.uno {
+    font-size: 1.3rem;
+}
+.dos {
+    font-size: 1.2em;
+}
+
+/*                                                                                                    */
+
+/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
+  }
+  
+  /* Preferred box-sizing value */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /*
+    Remove list styles (bullets/numbers)
+    in case you use it with normalize.css
+  */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* For images to not be able to exceed their container */
+  img {
+    max-width: 100%;
+  }
+  
+  /* Removes spacing between cells in tables */
+  table {
+    border-collapse: collapse;
+  }
+  
+  /* Revert the 'white-space' property for textarea elements on Safari */
+  textarea {
+    white-space: revert;
+  }
